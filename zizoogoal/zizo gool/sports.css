@@ -1,0 +1,52 @@
+ul {
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+#gotofootball {
+    width: 260px;
+    height:320px;
+    background-color: green;
+    border-style: dashed;
+    border: 3px;
+
+  }
+ #acolor2{
+    background-color: orange;
+    margin-bottom: 1cm;
+  
+  }
+ #gotoBASKETBALL{
+  width: 259px;
+  height:320px;
+  background-color: orange;
+  border-style: dashed;
+  border: 3px;
+  
+ }
+ .acolor{
+  background-color: red;
+ }
+ #divsports{
+  display: flex;
+  
+ }
+ .sports{
+  margin-left: 20px;
+  padding: 30px;
+ }
+ article{
+  background-color: blue;
+  height: 100%;
+ }
+ 

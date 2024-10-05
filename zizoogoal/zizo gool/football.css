@@ -1,0 +1,51 @@
+ul {
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+  body{
+    background-color: green;
+  } 
+  table{
+    width:90%;
+  }
+  #julian{
+    width: 250px;
+   margin-left:3cm;
+   width: 12cm;
+  }
+  #mpabee{
+width: 12cm;
+margin-left: 3cm;
+   }
+   #calafiori{
+    width: 12cm;
+margin-left: 3cm;
+   
+   }
+   #lenormand{
+    width: 12cm;
+    margin-left:3cm;
+   }
+   #olmo{
+    width: 12cm;
+    margin-left: 3cm;
+   }
+    #matthijsdeligt{
+      width: 12cm;
+      margin-left: 3cm;
+   }
+  p{
+    text-align: center;
+    background-color: aqua;
+  }

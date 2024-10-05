@@ -1,0 +1,109 @@
+html{
+   background-image: url(https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids_16x9.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+ body{
+    background-color: rgba(255,255,255,0.75);
+    width: 90% ;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: raleway;
+    padding: 20px;
+    border-radius: 10px q;
+}
+h1 p{
+    text-align: center;
+    margin: auto;
+}
+label {
+    display: block;
+    margin: 1em;
+}
+input select{
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    padding: 20p;
+    background-color: #fbfbfb;
+    border: solid #ccc 1px;
+    resize: vertical;
+    border-radius: 10px;
+}
+input[type=checkbox], input[type=radio]{
+    display: inline;
+    width: auto;
+}
+.inline-label{
+    display: inline;
+    width: auto;
+}
+option{
+    color: #000;
+    background-color: rgba(255,255,255,);
+}
+select{
+    color: indigo;
+}
+input[type=submit]:hover
+,input[type=submit]:focus
+{
+ 
+    background-color: rgba(0,0,200);
+}
+input[type=reset]:hover
+,input[type=reset]:focus
+ {
+    background-color: rgba(250,0,0);
+}
+input[type=reset],
+input[type=submit]{
+    background-color: green;
+    color: aqua;
+}
+
+
+.buttom{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top:15px;
+    
+}
+#name{
+    width: 90%;
+    padding: 10px;
+}
+#the-email{
+    width: 90%;
+    padding: 10px;
+}
+#the-phone{
+    width: 90%;
+    padding: 10px;
+}
+nav ul {
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+    margin-bottom: 2px;
+    
+}
+header{
+    background-color: none;
+    margin-bottom: 0px auto;
+    padding-bottom: 0px auto;
+}
+
+    
+

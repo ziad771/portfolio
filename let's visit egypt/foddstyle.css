@@ -1,0 +1,41 @@
+body{
+  background-color: aquamarine;
+}
+h2{
+    margin:10px;
+    padding:10px;
+}
+ul {
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+nav ul{
+border: 100px;
+border-color: black;
+border-radius: 6px;
+}
+#section1{
+  background-color: aqua;
+  border: 2px solid black;
+  margin-bottom: 2cm;
+}
+#section2{
+  background-color: red;
+  border: 2px solid black;
+  margin-bottom: 2cm;
+}
+#section3{
+  background-color: blueviolet;
+  border: 2px solid black;
+}

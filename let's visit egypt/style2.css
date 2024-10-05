@@ -1,0 +1,28 @@
+nav ul {
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+  table{
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.189);
+    padding: 50;
+  }
+  img{
+  margin-left: 200px;
+  }
+ 
+
+
+  
+  

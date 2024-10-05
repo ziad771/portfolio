@@ -1,0 +1,48 @@
+section {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
+  }
+  
+  article {
+    border-radius: 10px;
+    background-color: #85E0E0;
+    padding: 10px;
+  }
+  
+  
+  /* CSS Classes */
+  
+  .purpleBackground {
+    background-color: #ccb3ff;
+  }
+  
+  .darkerBackground {
+    background-color: #aa80ff;
+  }
+  
+  .sectionSpacing {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  nav ul {
+    background-color: hsl(0, 100%, 50%);
+    border-style: solid;
+    border-color: seashell;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: PapayaWhip;
+  }
+nav{
+border: 10px;
+border-color: black;
+border-radius: 6px;
+}

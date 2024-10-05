@@ -1,0 +1,189 @@
+header{
+    background-color: whitesmoke;
+    z-index: 999;
+ 
+}
+nav{
+    display: flex;
+}
+.nav-div{
+    display: flex;
+   margin-left: 28cm;
+   padding-top:10px ;
+  
+}
+.nav-a{
+    margin-right: 1cm;
+    color: red;
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase; font-size: 1.8em;
+    font-weight:700;
+  margin-top: 60px;
+}
+#fa-fa-youtube-play{
+width: 10px;
+height: 10px;
+color: red;
+margin-right: 1cm;
+}
+#fa-fa-instagram{
+    width: 10px;
+height: 10px;
+color: blueviolet;
+margin-right: 1cm;
+}
+#fa-fa-facebook{
+    width: 10px;
+    height: 10px;
+    color: blue;
+    margin-right: 1cm;
+}
+.myskills{
+    background-color: white;
+    border: blue 5px solid;
+    border-radius: 50px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 30px;
+margin-left: 1cm;
+align-items: center;
+
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+    font-size: 40px;
+}
+.skillss
+{
+   display: flex;
+margin-left: 6.5cm;
+  
+  margin-top: 5cm;
+
+ 
+  
+}
+.myskills{
+    transition: 0.7s ease;
+}
+.myskills:hover{
+    transform: scale(1.1);
+}
+
+.websitephoto{
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+    margin-left: 70px;
+width: 100px;
+}
+
+.photos{
+    display: flex;
+    background-color: royalblue;
+    margin:2cm;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: start; 
+    
+}
+@media(
+    max-width:800px
+) {
+    .start{
+        width: 932px ;
+    }
+}
+.sectionpjoto{
+    width: 300;
+    height: 170px;
+}
+.start{
+    background-image:url(programmer.jpg) ;
+    padding:300px;
+   align-items: start;
+    margin:top 0cm; 
+    margin-left:0cm ;
+    margin-right: 0cm;
+}
+.start a{
+    color: yellow;
+}
+#fa-youtube{
+    color: red;
+}
+#fa-facebook-f{
+    color: blue;
+}
+#fa-instagram{
+    color: blueviolet;
+}
+.projectss a{
+    background-color: blue;
+    font-weight:500;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+#projectss{
+    display: flex;
+height: 35cm;
+  align-items: center;
+  margin-top: 5cm;
+  flex-wrap:wrap ;
+background-image: linear-gradient( to right, blue ,black);
+ 
+}
+.my-projects{
+    width: 15cm;
+    height: 350px;
+    border: solid black 0.3cm;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 1cm;
+    margin-left: 2cm;
+    color: black;
+    background-color: white;
+}
+
+
+#my-projects{
+    margin-bottom: 480px;
+}
+
+.my-projects{
+    transition: 0.7s ease;
+}
+.my-projects:hover{
+    transform: scale(1.1);
+}
+
+
+ 
+
+#contact{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-between;
+    margin-top:10px;
+  background-image: linear-gradient(to right ,rgb(234, 50, 50),rgb(49, 241, 49),blue);
+}
+.contactslogo{
+    margin-top:0.7cm
+}
+.project-photo{
+    width: 300px;
+    height: 210px;
+}
