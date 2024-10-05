@@ -178,7 +178,7 @@ background-image: linear-gradient( to right, blue ,black);
     flex-flow: row ;
     justify-content: space-between;
     margin-top:10px;
-  background-image: linear-gradient(to right ,rgb(234, 50, 50),rgb(49, 241, 49),blue);
+  background-image: linear-gradient(to right ,rgb(234, 50, 50),rgb(49, 241, 49),white);
 }
 .contactslogo{
     margin-top:0.7cm
