@@ -140,6 +140,7 @@ width: 100px;
 #projectss{
     display: flex;
 height: 35cm;
+width: 100%;
   align-items: center;
   margin-top: 5cm;
   flex-wrap:wrap ;
