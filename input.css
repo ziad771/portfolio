@@ -1,4 +1,8 @@
-
+span{
+    color: blue;
+    font-weight: 500;
+    font-size: xx-large;
+}
 header{
     background-color: aliceblue;
 }
@@ -14,17 +18,14 @@ nav{
     color: red;
     margin-left:0.5cm ;
 }
-span{
-    color: blue;
-    font-weight: 500;
-    font-size: larger;
-}
+
 .start{
     background-image: url(programmer.jpg);
     background-repeat: no-repeat;
     padding: 300px;
     align-items: start;
 }
+
 #fa-fa-youtube-play{
     width: 10px;
     height: 10px;
@@ -42,4 +43,111 @@ span{
         height: 10px;
         color: blue;
         margin-right: 1cm;
+    }
+    .sectionpjoto{
+        width: 300;
+        height: 170px;
+    }
+    .photos{
+        display: flex;
+        background-color: royalblue;
+        margin:2cm;
+        justify-content: space-between;
+        flex-flow: row;
+        align-items: start; 
+        
+    }
+    .skillss
+{
+   display: flex;
+margin-left: 6.5cm;
+  
+  margin-top: 5cm;
+
+ 
+  
+}
+.myskills{
+    transition: 0.7s ease;
+}
+.myskills:hover{
+    transform: scale(1.1);
+}
+
+    .myskills{
+        background-color: white;
+        border: blue 5px solid;
+        border-radius: 50px;
+        width: 300px;
+        padding: 20px;
+        margin-top: 30px;
+    margin-left: 1cm;
+    align-items: center;
+    }
+    .skillssphoto{
+        margin-bottom: 1cm;
+        margin-top: 0.5cm;
+        margin-left: 70px;
+    width: 100px;}
+    .projectss a{
+        background-color: blue;
+        font-weight:500;
+        font-size: large;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-photo{
+        width: 300px;
+        height: 210px;
+    }
+    #projectss{
+        display: flex;
+    height: 35cm;
+      align-items: center;
+      margin-top: 5cm;
+      flex-wrap:wrap ;
+    background-image: linear-gradient( to right, blue ,black);
+     
+    }
+    .my-projects{
+        width: 15cm;
+        height: 350px;
+        border: solid black 0.3cm;
+        border-radius: 20px;
+        text-align: center;
+        margin-right: 1cm;
+        margin-left: 2cm;
+        color: black;
+        background-color: white;
+    }
+    
+    
+    #my-projects{
+        margin-bottom: 480px;
+    }
+    
+    .my-projects{
+        transition: 0.7s ease;
+    }
+    .my-projects:hover{
+        transform: scale(1.1);
+    }
+    
+    
+     
+    
+    #contact{
+        display: flex;
+        flex-flow: row ;
+        justify-content: space-between;
+        margin-top:10px;
+      background-image: linear-gradient(to right ,rgb(234, 50, 50),rgb(49, 241, 49),blue);
+    }
+    .contactslogo{
+        margin-top:0.7cm
     }
