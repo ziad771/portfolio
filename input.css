@@ -20,14 +20,11 @@ nav{
 }
 
 .start{
+    display:flex;
+    
+   
     background-image: url(programmer.jpg);
-    background-repeat: no-repeat;
-    padding: 300px;
-    align-items: start;
-    width:auto;
-    height: auto;
 }
-
 #fa-fa-youtube-play{
     width: 10px;
     height: 10px;
@@ -52,21 +49,17 @@ nav{
     .photos{
         display: flex;
         background-color: royalblue;
-        margin:2cm;
+       margin-top: 1cm;
         justify-content: space-between;
         flex-flow: row;
         align-items: start; 
         
     }
-    .skillss
+.skillss
 {
-   display: flex;
-margin-left: 6.5cm;
-  
-  margin-top: 5cm;
 
- 
-  
+   display: flex;
+  margin-top: 5cm;
 }
 .myskills{
     transition: 0.7s ease;
@@ -113,7 +106,6 @@ margin-left: 6.5cm;
       margin-top: 5cm;
       flex-wrap:wrap ;
     background-image: linear-gradient( to right, blue ,black);
-    width: 100%;
      
     }
     .my-projects{
@@ -153,4 +145,42 @@ margin-left: 6.5cm;
     .contactslogo{
         margin-top:0.7cm
     }
-   
+
+    @media screen and (max-width:400px) {
+        .start{
+           width:2000px ;
+           height: 1000px;
+        }
+        #projectss{
+            width:1000px ;
+            height: 1000px;
+         }
+         header{
+            width:1000px ;
+            height: 100px;
+         }
+         #contact{
+            width:1000px ;
+            height: 100px;
+         }
+    }
+    
+    @media screen and (min-width:401px) and (max-width:700px) {
+        .start{
+           width:1500px ;
+           height: 1500px;
+           background-repeat: no-repeat;
+        }
+        #projectss{
+            width:1500px ;
+           height: 1500px;
+         }
+         header{
+            width:1200px ;
+           height: 100px;
+         }
+         #contact{
+            width:1500px ;
+            height: 1500px;
+         }
+    }
