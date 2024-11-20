@@ -1,186 +1,187 @@
-span{
+/* قاعدة نمط عامة */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* تصغير حجم النص للمحافظة على العرض المتجاوب */
+span {
     color: blue;
     font-weight: 500;
     font-size: xx-large;
 }
-header{
+
+header {
     background-color: aliceblue;
+    padding: 1rem;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-.nav-div{
+
+.nav-div {
     display: flex;
-    
-}
-.nav-a{
-    color: red;
-    margin-left:0.5cm ;
 }
 
-.start{
-    display:flex;
-    
-   
+.nav-a {
+    color: red;
+    margin-left: 0.5cm;
+}
+
+/* قسم البداية */
+.start {
+    display: flex;
+    height: 100vh;
     background-image: url(programmer.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
-#fa-fa-youtube-play{
-    width: 10px;
-    height: 10px;
-    color: red;
-    margin-right: 1cm;
-    }
-    #fa-fa-instagram{
-        width: 10px;
-    height: 10px;
-    color: blueviolet;
-    margin-right: 1cm;
-    }
-    #fa-fa-facebook{
-        width: 10px;
-        height: 10px;
-        color: blue;
-        margin-right: 1cm;
-    }
-    .sectionpjoto{
-       
-    }
-    .photos{
-        display: flex;
-        background-color: royalblue;
-       margin-top: 1cm;
-        justify-content: space-between;
-        flex-flow: row;
-        align-items: start; 
-        
-    }
-.skillss
-{
 
-   display: flex;
-  margin-top: 5cm;
+#fa-fa-youtube-play,
+#fa-fa-instagram,
+#fa-fa-facebook {
+    width: 20px;
+    height: 20px;
+    margin-right: 1cm;
 }
-.myskills{
+
+#fa-fa-youtube-play {
+    color: red;
+}
+
+#fa-fa-instagram {
+    color: blueviolet;
+}
+
+#fa-fa-facebook {
+    color: blue;
+}
+
+/* قسم الصور */
+.photos {
+    display: flex;
+    background-color: royalblue;
+    margin-top: 1cm;
+    justify-content: space-between;
+    flex-flow: row;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+/* قسم المهارات */
+.skillss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5cm;
+}
+
+.myskills {
     transition: 0.7s ease;
+    background-color: white;
+    border: blue 5px solid;
+    border-radius: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 1cm;
+    align-items: center;
 }
-.myskills:hover{
+
+.myskills:hover {
     transform: scale(1.1);
 }
 
-    .myskills{
-        background-color: white;
-        border: blue 5px solid;
-        border-radius: 50px;
-        width: 300px;
-        padding: 20px;
-        margin-top: 30px;
-    margin-left: 1cm;
+.skillssphoto {
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+    margin-left: 70px;
+    width: 100px;
+}
+
+/* قسم المشاريع */
+.projectss a {
+    background-color: blue;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    }
-    .skillssphoto{
-        margin-bottom: 1cm;
-        margin-top: 0.5cm;
-        margin-left: 70px;
-    width: 100px;}
-    .projectss a{
-        background-color: blue;
-        font-weight:500;
-        font-size: large;
-        color: white;
-        text-decoration: none;
-        padding: 5px;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .project-photo{
-        width: 300px;
-        height: 210px;
-    }
-    #projectss{
-        display: flex;
-    height: 35cm;
-      align-items: center;
-      margin-top: 5cm;
-      flex-wrap:wrap ;
-    background-image: linear-gradient( to right, blue ,black);
-     
-    }
-    .my-projects{
-        width: 15cm;
-        height: 350px;
-        border: solid black 0.3cm;
-        border-radius: 20px;
-        text-align: center;
-        margin-right: 1cm;
-        margin-left: 2cm;
-        color: black;
-        background-color: white;
-    }
-    
-    
-    #my-projects{
-        margin-bottom: 480px;
-    }
-    
-    .my-projects{
-        transition: 0.7s ease;
-    }
-    .my-projects:hover{
-        transform: scale(1.1);
-    }
-    
-    
-     
-    
-    #contact{
-        display: flex;
-        flex-flow: row ;
-        justify-content: space-between;
-        margin-top:10px;
-      background-image: linear-gradient(to right ,rgb(234, 50, 50),rgb(49, 241, 49),blue);
-    }
-    .contactslogo{
-        margin-top:0.7cm
+}
+
+.project-photo {
+    width: 300px;
+    height: 210px;
+}
+
+#projectss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, blue, black);
+    margin-top: 5cm;
+    padding: 2cm;
+}
+
+.my-projects {
+    width: 15cm;
+    height: 350px;
+    border: solid black 0.3cm;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1cm;
+    color: black;
+    background-color: white;
+    transition: 0.7s ease;
+}
+
+.my-projects:hover {
+    transform: scale(1.1);
+}
+
+/* قسم الاتصال */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgb(234, 50, 50), rgb(49, 241, 49), blue);
+    padding: 2cm;
+}
+
+.contactslogo {
+    margin: 1cm;
+}
+
+/* استعلامات الوسائط */
+@media screen and (max-width: 400px) {
+    .start, #projectss, header, #contact, .skillss {
+        width: 100%;
+        height: auto;
     }
 
-    @media screen and (max-width:400px) {
-        .start{
-           width:2000px ;
-           height: 1000px;
-        }
-        #projectss{
-            width:1000px ;
-            height: 1000px;
-         }
-         header{
-            width:1000px ;
-            height: 100px;
-         }
-         #contact{
-            width:1000px ;
-            height: 100px;
-         }
+    .my-projects {
+        width: 100%;
+        height: auto;
+        margin: 0.5cm;
     }
-    
-    @media screen and (min-width:401px) and (max-width:700px) {
-        .start{
-           width:1500px ;
-           height: 1500px;
-           background-repeat: no-repeat;
-        }
-        #projectss{
-            width:1500px ;
-           height: 1500px;
-         }
-         header{
-            width:1200px ;
-           height: 100px;
-         }
-         #contact{
-            width:1500px ;
-            height: 1500px;
-         }
+}
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    .start, #projectss, header, #contact {
+        width: 100%;
+        height: auto;
     }
+}
