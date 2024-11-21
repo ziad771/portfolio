@@ -151,8 +151,10 @@ nav {
 }
 
 .project-photo {
-    width: 300px;
-    height: 210px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
 
 #projectss {
@@ -166,9 +168,8 @@ nav {
 }
 
 .my-projects {
-    width: 100%;
-    max-width: 15cm;
-    height: auto;
+    flex: 1 1 calc(33.333% - 2cm);
+    box-sizing: border-box;
     border: solid black 0.3cm;
     border-radius: 20px;
     text-align: center;
@@ -180,6 +181,20 @@ nav {
 
 .my-projects:hover {
     transform: scale(1.1);
+}
+
+/* استعلامات الوسائط */
+@media screen and (max-width: 900px) {
+    .my-projects {
+        flex: 1 1 calc(50% - 2cm);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .my-projects {
+        flex: 1 1 100%;
+        margin: 0.5cm 0;
+    }
 }
 
 /* قسم الاتصال */
